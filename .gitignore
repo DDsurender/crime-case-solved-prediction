@@ -1,0 +1,90 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# =========================
+# Testing / Coverage
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# Node / React
+# =========================
+
+node_modules/
+frontend/node_modules/
+
+# Build output
+dist/
+frontend/dist/
+build/
+frontend/build/
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# OS Generated Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary Files
+# =========================
+
+*.tmp
+*.temp
+
+# =========================
+# Python Packaging
+# =========================
+
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# =========================
+# Local IDE Files
+# =========================
+
+.idea/
+*.swp
+*.swo
+
+# Dataset
+SHR76_25.csv
