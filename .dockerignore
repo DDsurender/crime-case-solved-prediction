@@ -1,0 +1,8 @@
+.venv/
+.git/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+Feature_Engineering.ipynb
+SHR76_25.csv
+frontend/
