@@ -1,6 +1,3 @@
-
-Crime/requirements.txt
-
 pandas
 numpy
 scikit-learn
@@ -9,41 +6,3 @@ joblib
 fastapi
 uvicorn
 pydantic
-
-
- What each package is for
-
-text
-pandas        → Data loading and data processing
-numpy         → Numerical operations and transformations
-scikit-learn → Preprocessing, train/test split, evaluation, GridSearchCV
-xgboost      → Final Machine Learning model
-joblib        → Saving/loading model and preprocessor
-fastapi      → Backend REST API
-uvicorn      → Runs the FastAPI server
-pydantic      → API request validation
-
-project structure
-
-Crime/
-│
-├── api/
-├── models/
-├── frontend/
-├── Feature_Engineering.ipynb
-├── SHR76_25.csv
-├── README.md
-└── requirements.txt
-
-Install everything
-
-From the Crime folder:
-
-pip install -r requirements.txt
-
-Then your backend can be started normally:
-
-powershell
-
-cd api
-uvicorn Crime_api:app --reload
